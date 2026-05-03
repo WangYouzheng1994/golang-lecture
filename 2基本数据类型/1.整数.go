@@ -46,5 +46,4 @@ func int_m1() {
 	// 自适应，默认就是int
 	var n11 = 2
 	fmt.Printf("类型: %T，值：%v", n11, n11)
-
 }

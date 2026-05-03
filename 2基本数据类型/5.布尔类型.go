@@ -10,4 +10,7 @@ func main() {
 	var b bool = true
 
 	fmt.Println(a, b)
+
+	ab := true
+	fmt.Println(ab)
 }

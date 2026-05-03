@@ -17,7 +17,7 @@ func main() {
 // 定义
 func str_m1() {
 	// 单行字符串
-	var str = "小王"
+	var str string = "小王"
 
 	// 多行字符串
 	var multi = `
@@ -29,6 +29,7 @@ func str_m1() {
 	fmt.Println(multi)
 }
 
+// 常见的API
 func str_m2() {
 	var str = "小王"
 	// 长度
@@ -40,4 +41,10 @@ func str_m2() {
 	fmt.Println(strings.Split(str, ","))
 	// 包含
 	fmt.Println(strings.Contains(str, ","))
+}
+
+// 短声明
+func str_m3() {
+	str := "test"
+	fmt.Println(str)
 }
